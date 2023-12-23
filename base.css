@@ -2,9 +2,18 @@ body{
 	overflow-x: hidden;
 }
 
+.rowlet{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	width: 1200px;
+	padding: 0px 10px;
+	box-sizing:border-box;
+}
+
 [id*="minimodal-"] {
-  border-radius: 5px;
-  cursor: pointer;
+	border-radius: 5px;
+	cursor: pointer;
   transition: 0.3s;
   width: 100%;
   max-width: 250px;
