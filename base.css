@@ -2,6 +2,19 @@ body{
 	overflow-x: hidden;
 }
 
+[id*="minimodal-"] {
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 100%;
+  max-width: 250px;
+  max-height: 250px;
+  display: block;
+  justify-content: start;
+}
+
+[id*="minimodal-"]:hover {opacity: 0.7;}
+
 .modal {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
