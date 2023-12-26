@@ -41,7 +41,7 @@ body{
   justify-content: start;
 }
 
-[id*="minimodal-"]:hover{
+[id*="minimodal-"]:hover, .textual:hover > [id*="minimodal-"], .textual2:hover > [id*="minimodal-"]{
 	opacity: 0.7;
 }
 
@@ -52,6 +52,7 @@ body{
 	color:#FFFFFF;
 	font-family:'Arial';
 	cursor:default;
+	transition: 0.3s;
 }
 
 .textual{
