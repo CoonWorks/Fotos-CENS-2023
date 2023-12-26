@@ -82,3 +82,8 @@ body{
 	position:relative;
 	top:10%;
 }
+
+#mainpic-7,mainpic-8,mainpic-9,mainpic-10,mainpic-11,mainpic-37,mainpic-38,mainpic-39,mainpic-40,mainpic-42,mainpic-44,mainpic-46{
+	transform:scale(0.5,0.5);
+	top:-25%;
+}
