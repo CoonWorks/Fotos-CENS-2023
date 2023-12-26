@@ -45,14 +45,21 @@ body{
 	opacity: 0.7;
 }
 
-.textual{
+.textual, .textual2{
 	position:relative;
-	top:-160px;
 	right:-5px;
 	font-size:25px;
 	color:#FFFFFF;
 	font-family:'Arial';
 	cursor:default;
+}
+
+.textual{
+	top:-160px;
+}
+
+.textual2{
+	top:-240px;
 }
 
 .modal {
