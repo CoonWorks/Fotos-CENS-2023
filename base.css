@@ -14,7 +14,7 @@ body{
 
 .fotocont{
 	box-sizing: border-box;
-	padding:10px;
+	padding:10px 10px 10px 0px;
 	width: 260px;
 	max-width: calc(100%-10px);
 	height: 300px;
