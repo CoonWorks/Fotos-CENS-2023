@@ -47,11 +47,12 @@ body{
 
 .textual{
 	position:relative;
-	top:0px;
-	right:0px;
-	font-size:20px;
+	top:-160px;
+	right:-5px;
+	font-size:25px;
 	color:#FFFFFF;
 	font-family:'Arial';
+	cursor:default;
 }
 
 .modal {
