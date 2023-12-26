@@ -73,3 +73,11 @@ body{
   text-decoration: none;
   cursor: pointer;
 }
+
+[id*="mainpic-"]{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	width:50%;
+	vertical-align:middle;
+}
