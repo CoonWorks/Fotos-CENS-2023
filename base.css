@@ -1,6 +1,6 @@
 body{
 	overflow-x: hidden;
-	background-color:#505050;
+	background-color:#202020;
 }
 
 .rowlet{
@@ -10,6 +10,11 @@ body{
 	width: 1200px;
 	padding: 0px 10px;
 	box-sizing:border-box;
+}
+
+.fotocont{
+	box-sizing: border-box;
+	padding:10px;
 }
 
 [id*="minimodal-"] {
